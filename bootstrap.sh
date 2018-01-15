@@ -202,5 +202,10 @@ sync_repo       "$HOME/.vim/bundle/vundle" \
 
 setup_vundle    "$APP_PATH/.vimrc.bundles.default"
 
+
+######## phpcomplete.vim need pathogen.vim ########
+mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+###################################################
+
 msg             "\nThanks for installing $app_name."
 msg             "© `date +%Y` http://vim.spf13.com/"
