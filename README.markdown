@@ -41,6 +41,7 @@ Above is the same to `sh bootstrap.sh`, so now run below changed instead :
     curl https://raw.githubusercontent.com/farwish/spf13-vim/3.0/bootstrap.sh -L > spf13-vim.sh && sh spf13-vim.sh
     
     # My Change Log:
+    # .vimrc.bundle original plugin amirh/HTML-AutoCloseTag replaced with heracek/HTML-AutoCloseTag.
     # .vimrc.bundle add the phpcomplete plugin; bootstrap.sh add the pathogen.vim install command that phpcomplete.vim dependent.
 ```
 
