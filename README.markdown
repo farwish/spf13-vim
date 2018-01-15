@@ -35,9 +35,13 @@ The easiest way to install spf13-vim is to use our [automatic installer](https:/
 
     curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 ``` 
-above is the same to `sh bootstrap.sh`, so run below instead now : 
+
+Above is the same to `sh bootstrap.sh`, so now run below changed instead : 
 ```bash
-    curl https://raw.githubusercontent.com/farwish/spf13-vim/3.0/bootstrap.sh -L > spf13-vim.sh && sh spf13-vim.sh`
+    curl https://raw.githubusercontent.com/farwish/spf13-vim/3.0/bootstrap.sh -L > spf13-vim.sh && sh spf13-vim.sh
+    
+    # My Change Log:
+    # .vimrc.bundle add the phpcomplete plugin; bootstrap.sh add the pathogen.vim install command that phpcomplete.vim dependent.
 ```
 
 If you have a bash-compatible shell you can run the script directly:
